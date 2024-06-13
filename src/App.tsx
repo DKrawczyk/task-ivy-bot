@@ -1,9 +1,9 @@
-import { MainPage } from "./components/MainPage";
+import { MainComponent } from "./components";
 
 export const App = () => {
   return (
     <div className="App">
-      <MainPage />
+      <MainComponent />
     </div>
   );
 };
