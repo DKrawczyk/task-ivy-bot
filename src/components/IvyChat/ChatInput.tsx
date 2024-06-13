@@ -49,7 +49,6 @@ export const ChatInput: FC<ChatInputProps> = ({
           border: `1px solid ${isPopup ? "#F0F1F4" : "#1E6DEB"}`,
           paddingRight: "70px",
           paddingTop: "20px",
-          paddingBottom: "20px",
           marginBottom: "4px",
           maxHeight: "63px",
         },
@@ -60,7 +59,8 @@ export const ChatInput: FC<ChatInputProps> = ({
         },
       }}
       h={63}
-      w={357}
+      w={"calc(100% - 20px)"}
+      maw={"100%"}
       bottom={10}
       pos={"absolute"}
     />

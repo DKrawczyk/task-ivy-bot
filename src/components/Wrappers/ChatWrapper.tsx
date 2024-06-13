@@ -18,6 +18,7 @@ export const ChatWrapper: FC<ChatWrapperProps> = ({
       right={20}
       bottom={100}
       w={380}
+      maw={"90%"}
       h={`${isPopup ? "322px" : "80%"}`}
       style={{
         borderRadius: 9,
