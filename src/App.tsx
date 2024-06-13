@@ -1,13 +1,9 @@
-import { MantineProvider } from "@mantine/core";
-import { MainPage } from "./components/MainPage";
+import { MainComponent } from "components";
 
 export const App = () => {
-
   return (
     <div className="App">
-      <MantineProvider >
-        <MainPage />
-      </MantineProvider>
+      <MainComponent />
     </div>
   );
 };
