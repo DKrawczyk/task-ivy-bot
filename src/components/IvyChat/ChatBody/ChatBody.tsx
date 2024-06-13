@@ -1,8 +1,6 @@
 import { Box } from "@mantine/core";
 import { FC } from "react";
-import { ChatMessages } from "../ChatMessages";
-import { ChatWelcomeMessage } from "../ChatWelcomeMessage";
-import { ChatInput } from "../ChatInput";
+import { ChatMessages, ChatWelcomeMessage, ChatInput } from "components";
 import { useChatBody } from "./ChatBody.hook";
 
 interface ChatBodyProps {

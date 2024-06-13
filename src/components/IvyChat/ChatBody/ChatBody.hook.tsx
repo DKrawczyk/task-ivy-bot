@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { postUserMessage } from "../../../api/postUserMessage";
+import { postUserMessage } from "api/postUserMessage";
 
 type Roles = "bot" | "user";
 

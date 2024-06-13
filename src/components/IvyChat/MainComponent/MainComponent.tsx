@@ -1,9 +1,11 @@
 import { FC } from "react";
-import { AppWrapper } from "../../Wrappers/AppWrapper";
-import { ChatWrapper } from "../../Wrappers/ChatWrapper";
-import { ChatBody } from "../ChatBody/ChatBody";
-import { ChatHeader } from "../ChatHeader";
-import { ChatIcon } from "../ChatIcon";
+import {
+  ChatHeader,
+  ChatBody,
+  ChatIcon,
+  AppWrapper,
+  ChatWrapper,
+} from "components";
 import { useMainComponent } from "./MainComponent.hook";
 
 export const MainComponent: FC = () => {

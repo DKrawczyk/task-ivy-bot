@@ -1,4 +1,4 @@
-import { MainComponent } from "./components";
+import { MainComponent } from "components";
 
 export const App = () => {
   return (
