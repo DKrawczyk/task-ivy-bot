@@ -8,7 +8,7 @@ interface ChatMessagesProps {
 
 export const ChatMessages: FC<ChatMessagesProps> = ({ storedMessages }) => {
   return (
-    <ScrollArea h={601}>
+    <ScrollArea h={595}>
       {storedMessages.map((item, idx) => {
         const isBot = item.role === "bot";
         return (
