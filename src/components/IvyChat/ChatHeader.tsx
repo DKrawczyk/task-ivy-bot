@@ -24,7 +24,7 @@ export const ChatHeader: FC<ChatHeaderProps> = ({
       {isPopup && (
         <Box
           bg={"#9399AA"}
-          style={{ borderRadius: "50px" }}
+          style={{ borderRadius: "50px", boxShadow: "0px 20px 50px #0000004A" }}
           p={14}
           pos={"absolute"}
           left={"calc(50% - 49px)"}

@@ -12,7 +12,7 @@ export const ChatBody: FC<ChatBodyProps> = ({ isPopup }) => {
     useChatBody();
 
   return (
-    <Box px={10}>
+    <Box px={10} pos={"relative"} h={"calc(100% - 75px)"}>
       {isPopup ? (
         <ChatWelcomeMessage />
       ) : (
