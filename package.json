@@ -34,8 +34,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "prettier --check \"./src/**/*.{js,jsx,ts,tsx}\" && eslint ./src --ext .tsx --max-warnings=0",
     "prettier:check": "prettier --check './src'",
-    "prettier:fix": "prettier --write './src'"
+    "prettier:fix": "prettier --write './src'",
+    "typecheck": "tsc --noEmit"
   },
   "eslintConfig": {
     "extends": [
